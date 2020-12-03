@@ -12,7 +12,7 @@ command = input("Command? ")
 if command.lower() == "open":
   functions.open1()
   
-elif command.lower() == "change temperature" or "change temp":
+elif command.lower() == "change temperature":
   functions.change_temp()
   
 else:
