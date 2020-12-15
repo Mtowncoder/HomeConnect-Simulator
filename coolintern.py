@@ -133,7 +133,7 @@ while answer.lower() == "yes":
   print("The current commands are {} ".format(command_list))
   command = input("What would you like to do? ")
 
-  # make temperature class
+  # 
   if command.lower() == "change freezer temperature":
     settings_change.change_freezer_temp()
 
